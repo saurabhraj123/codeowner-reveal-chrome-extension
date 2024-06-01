@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Codeowner Reveal",
+  "description": "Shows codeowners of files in code reviews on github",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["contentScript.js"],
+      "matches": ["https://github.com/*"]
+    }
+  ],
+  "permissions": ["storage"]
+}

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  gap: 4px;
+}
+
+#codeownersTextarea {
+  width: 98%;
+  height: 80%;
+}
